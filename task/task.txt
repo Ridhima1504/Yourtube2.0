@@ -1,0 +1,13 @@
+mongodb+srv://admin:<db_password>@new-youtube.cmtyzzg.mongodb.net/?appName=new-youtube
+
+1. We should have translator option on comment section for user comments along with like and dislike options.. user can comment on any language as well as we should have an option to translate the comment in desired language. we should show user exact city name as well along with comments . we should not allow comments which has special characters and remove the comments automatically if its get 2 dislike from others.
+
+2. Create a feature to download the video on website itself and show it on user profile under download option. we should be able to download only one video per day . If they want to download more than one video they should go for premium plan where they can click on premium option and setup the Razorpay payment gateway for test payment . if the payment is successful they can download as much as video possible.
+
+3. Create a feature to upgrade the plan to Bronze , silver and Gold . For free plan user can only watch videos for 5 mins . For Bronze plan user can watch videos for 7 mins. For Silver plan they can watch videos for 10 mins and for gold plan they can watch videos unlimited time. Bronze cost 10rs, silver cost 50rs and gold cost 100rs . we should trigger an email to user once payment is succesful and share an invoice..
+
+4. Change the website color or theme according to time of login and location . If we access the website between 10 AM to 12 Pm as well as if the location is south india (Tamil nadu, Kerala, karnataka, Andhra and Telungana) we should keep white theme and for other timing and other states we should keep dark theme . if the user login from southern states(Tamil nadu, Kerala, karnataka, Andhra and Telungana) we should trigger an email for OTP Verification if the user login from other states we should trigger an OTP through mobile number.
+
+5. Add a Custom Video Player: Integrate a custom video player into the website with gesture-based controls. For instance, when users double-tap on the right side, the playback will move 10 seconds forward. Similarly, if they double-tap on the left side, the playback should go 10 seconds backward. If the user single-taps in the middle of the screen, the playback should pause. if the user use three-taps on middle of screen we should move to next video. if they user use three-taps on right side we should close the website likewise if the user use 3 taps on left side we should show the comment section.
+
+6. VoIP: Incorporate a feature into the web app that allows users to make video calls to their friends and share screen of youtube website and we should have option to record the video session and save it in local.
