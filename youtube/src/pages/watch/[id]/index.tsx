@@ -73,7 +73,7 @@ const index = () => {
           <div className="lg:col-span-2 space-y-4">
             <Videopplayer video={videos} />
             <VideoInfo video={videos} />
-            <Comments videoId={id} />
+            {/* <Comments videoid={id} /> */}
           </div>
           <div className="space-y-4">
             <RelatedVideos videos={video} />
